@@ -1,15 +1,38 @@
 {
-	"name": "simplemobilev11",
-	"title": "Simple-Mobile-V11",
-	"description": "Adds mobile support",
-	"version": "0.2.6",
-	"author": "JustAnotherIdea",
-	"esmodules": ["mobile.js"],
-	"styles": ["mobile.css"],
-	 "socket": true,
-    "url": "https://github.com/JustAnotherIdea/simplemobileV11/blob/master",
-    "manifest": "https://raw.githubusercontent.com/JustAnotherIdea/simplemobileV11/master/module.json",
-    "download": "https://github.com/JustAnotherIdea/simplemobileV11/raw/master/simplemobilev11.zip",
-	"minimumCoreVersion": "0.8.9",
-	"compatibleCoreVersion": "11.315"
+  "id": "deadsimplemobile",
+  "title": "dead_simple_mobile",
+  "version": "1.0.0",
+  "relationships": {
+    "requires": [
+      {
+        "id": "dice-calculator",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "dice-so-nice",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  },
+  "esmodules": [
+    "mobile.js"
+  ],
+  "url": "https://github.com/achoobert/deadsimplemobile/blob/master",
+  "manifest": "https://raw.githubusercontent.com/achoobert/deadsimplemobile/master/module.json",
+  "download": "https://github.com/achoobert/deadsimplemobile/raw/master/deadsimplemobile.zip",
+  "compatibility": {
+    "minimum": "0.8.9",
+    "verified": "12"
+  },
+  "authors": [
+    {
+      "name": "Isaac Schubert",
+      "email": "isaac@schubert.dev",
+      "url": "isaacschubert.com",
+      "discord": "achoobert",
+      "flags": {}
+    }
+  ]
 }
