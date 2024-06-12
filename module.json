@@ -10,6 +10,18 @@
         "compatibility": {}
       },
       {
+        "id": "ipadviewportfix",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "touch-vtt",
+        "type": "module",
+        "compatibility": {}
+      }
+    ],
+    "conflicts": [
+      {
         "id": "dice-so-nice",
         "type": "module",
         "compatibility": {}
